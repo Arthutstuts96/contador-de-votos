@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.secao-titulo{
+    display: block;
+    padding: 24px 12px;
+}
+.secao-titulo .titulo-principal{
+    font-size: 36px;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+}
+.secao-titulo .subtitulo{
+    font-size: 16px;
+    font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
+}

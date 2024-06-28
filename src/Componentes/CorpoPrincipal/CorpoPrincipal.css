@@ -1,0 +1,15 @@
+.corpo-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 48px 24px;
+    font-family: "Libre Baskerville";
+}
+.suas-votacoes{
+    align-self: flex-start;
+}
+.lista-votacoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    list-style: none;
+}
