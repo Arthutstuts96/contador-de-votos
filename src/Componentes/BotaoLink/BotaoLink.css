@@ -1,0 +1,23 @@
+.botao{
+    background-color: rgb(173, 173, 0);
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.botao:hover{
+    cursor: pointer;
+    animation-name: aumentar;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+}
+/*******************/
+@keyframes aumentar{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}

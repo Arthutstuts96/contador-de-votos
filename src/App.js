@@ -3,6 +3,7 @@ import PaginaInicial from './Paginas/PaginaInicial';
 import ComoFunciona from './Paginas/ComoFunciona';
 import Rodape from './Componentes/Rodape';
 import NaoExiste from './Paginas/NaoExiste';
+import CriarVotacao from './Paginas/CriarVotacao';
 
 function App() {
   //Funções
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<PaginaInicial />}/>
         <Route path='/como-funciona' element={<ComoFunciona />}/>
+        <Route path='/criar-votacao' element={<CriarVotacao />}/>
 
         <Route path='*' element={<NaoExiste />}/>
       </Routes>

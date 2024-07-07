@@ -1,0 +1,30 @@
+.container-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    margin: 72px 156px 36px;
+    padding: 20px;
+    text-align: center;
+}
+.container-titulo .titulo{
+    font-size: 52px;
+}
+.container-titulo .subtitulo{
+    font-size: 24px;
+}
+/********************/
+@media(max-width: 536px){
+    .container-titulo{
+        margin: 36px 24px;
+        gap: 30px;
+    }
+    .container-titulo .titulo{
+        font-size: 32px;
+    }
+    .container-titulo .subtitulo{
+        font-size: 18px;
+    }
+}
