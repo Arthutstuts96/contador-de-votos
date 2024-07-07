@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
 
 .cabecalho{
-    background-color: aqua;
+    background-color: rgb(173, 173, 0);
     position: relative;
     width: 100%;
-    margin: 12px 0;
 }
 .barra-navegacao{
     display: flex;
@@ -13,9 +12,11 @@
     padding: 8px 16px;
 }
 .barra-navegacao .titulo{
+    color: #000;
     font-size: 24px;
     font-family: "Playwrite MX", Arial, Helvetica, sans-serif;
     font-style: italic;
+    text-decoration: none;
 }
 .barra-navegacao .navegacao-opcoes{
     display: flex;
@@ -24,7 +25,7 @@
 }
 .navegacao-opcoes .como-funciona{
     cursor: help;
-    font-size: 16px;
+    font-size: 20px;
     color: #6c2cd4;
     text-decoration: underline;
 }
@@ -33,26 +34,4 @@
     border: 2px solid #000;
     border-radius: 50%;
 }
-.box-como-funciona{
-    position: absolute;
-    top: 45px;
-    background-color: coral;
-    padding: 120px 65px;
-}
 /*****************/
-.nada{
-    display: none;
-}
-.bloco{
-    display: block;
-}
-@media(min-width: 216px){
-    .box-como-funciona{
-        margin: 28px -20px;
-    }
-}
-@media(min-width: 400px){
-    .box-como-funciona{
-        margin: 0;
-    }
-}

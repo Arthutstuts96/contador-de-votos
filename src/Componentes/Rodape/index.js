@@ -1,3 +1,5 @@
-import { Rodape } from "./Rodape";
+import './Rodape.css';
 
-export default Rodape;
+export default function Rodape(){
+    return ('Rodape');
+}

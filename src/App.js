@@ -1,25 +1,23 @@
-import './App.css';
-import Cabecalho from './Componentes/Cabecalho';
-import Botao from './Componentes/Botao';
-import Titulo from './Componentes/Titulo';
-import CorpoPrincipal from './Componentes/CorpoPrincipal';
-import { Rodape } from './Componentes/Rodape/Rodape';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import PaginaInicial from './Paginas/PaginaInicial';
+import ComoFunciona from './Paginas/ComoFunciona';
+import Rodape from './Componentes/Rodape';
+import NaoExiste from './Paginas/NaoExiste';
 
 function App() {
   //Funções
-  function abrirPaginaDeCriacao(){
-    console.log('Indo para página de criação...');
-  }
   //Componente
   return (
-    <div className="App">
-      <Cabecalho />
-      <Titulo />
-      <Botao texto="Criar nova votação" acao={abrirPaginaDeCriacao}/>
-      <CorpoPrincipal />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<PaginaInicial />}/>
+        <Route path='/como-funciona' element={<ComoFunciona />}/>
+
+        <Route path='*' element={<NaoExiste />}/>
+      </Routes>
+
       <Rodape />
-    </div>
+    </BrowserRouter>
   );
 }
-
 export default App;
