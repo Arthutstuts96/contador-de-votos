@@ -10,6 +10,7 @@ export default function CorpoPrincipal(){
             <BotaoLink link='/criar-votacao'>
                 Criar nova votação
             </BotaoLink>
+            <h1 className='suas-votacoes'>Suas votações</h1>
             <ListaVotacoes />
         </main>
     );

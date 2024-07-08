@@ -2,7 +2,7 @@ import './Rodape.css';
 
 export default function Rodape(){
     return (
-        <footer>
+        <footer className='rodape'>
             Rodape
         </footer>
     );

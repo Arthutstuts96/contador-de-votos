@@ -35,3 +35,14 @@
     border-radius: 50%;
 }
 /*****************/
+@media(max-width: 536px){
+    .barra-navegacao .titulo{
+        font-size: 16px;
+    }
+    .navegacao-opcoes .como-funciona{
+        font-size: 16px;
+    }
+    .navegacao-opcoes .foto-perfil{
+        width: 36px;
+    }
+}
