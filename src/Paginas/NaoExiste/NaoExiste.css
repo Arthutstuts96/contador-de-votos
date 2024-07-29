@@ -1,3 +1,19 @@
-h1{
-    color: #fff;
+.container-erro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin: 4%;
+    padding: 24px;
+    text-align: center;
+}
+.container-erro .erro404{
+    font-size: 150px;
+}
+.container-erro .erro404-frase{
+    font-size: 30px;
+}
+.container-erro .foto-tomada{
+    width: 120px;
 }

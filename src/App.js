@@ -4,17 +4,18 @@ import ComoFunciona from './Paginas/ComoFunciona';
 import Rodape from './Componentes/Rodape';
 import NaoExiste from './Paginas/NaoExiste';
 import CriarVotacao from './Paginas/CriarVotacao';
+import Cabecalho from './Componentes/Cabecalho';
 
 function App() {
   //Funções
   //Componente
   return (
     <BrowserRouter>
+      <Cabecalho />
       <Routes>
         <Route path='/' element={<PaginaInicial />}/>
         <Route path='/como-funciona' element={<ComoFunciona />}/>
         <Route path='/criar-votacao' element={<CriarVotacao />}/>
-
         <Route path='*' element={<NaoExiste />}/>
       </Routes>
 

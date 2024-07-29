@@ -3,10 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 72px; /*altura do rodapé*/
+    padding-bottom: 133px; /*altura do rodapé*/
 }
 .suas-votacoes{
     align-self: flex-start;
     font-size: 42px;
     padding: 48px 24px;
+    text-align: center;
 }

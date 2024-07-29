@@ -5,7 +5,6 @@ import './PaginaInicial.css';
 export default function PaginaInicial({abrirPaginaDeCriacao}){
     return (
         <>
-            <Cabecalho />
             <CorpoPrincipal />
         </>
     );
