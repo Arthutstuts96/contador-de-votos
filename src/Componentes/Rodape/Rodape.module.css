@@ -12,7 +12,7 @@
     color: #000;
     padding: 12px 0;
 }
-.links-rodape{
+.linksRodape{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -20,11 +20,8 @@
     width: 100%;
     padding: 4px 0 16px 0;
 }
-.rodape .links-externos{
+.linksExternos, .direitosAutorais{
     color: #000;
     font-size: 20px;
     text-align: center;
-}
-.direitos-autorais{
-    
 }

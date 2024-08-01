@@ -1,6 +1,5 @@
-import Cabecalho from '../../Componentes/Cabecalho';
 import CorpoPrincipal from '../../Componentes/CorpoPrincipal';
-import './PaginaInicial.css';
+import styles from './PaginaInicial.module.css';
 
 export default function PaginaInicial({abrirPaginaDeCriacao}){
     return (

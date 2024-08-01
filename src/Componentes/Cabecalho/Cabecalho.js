@@ -1,4 +1,4 @@
-import "./Cabecalho.css";
+import styles from "./Cabecalho.module.css";
 import { Link } from "react-router-dom";
 
 export const Cabecalho = () => {
@@ -6,12 +6,12 @@ export const Cabecalho = () => {
     
     //Componente
     return(
-        <header className="cabecalho">
-            <nav className="barra-navegacao">
-                <Link className="titulo" to='/'>Contador de votos</Link>
-                <div className="navegacao-opcoes">
-                    <Link className="como-funciona" to='/como-funciona'>Como funciona?</Link>
-                    <img src={linkImagem} alt="Imagem de perfil" className="foto-perfil"/>
+        <header className={styles.cabecalho}>
+            <nav className={styles.barraNavegacao}>
+                <Link className={styles.titulo} to='/'>Contador de votos</Link>
+                <div className={styles.navegacaoOpcoes}>
+                    <Link className={styles.comoFunciona} to='/como-funciona'>Como funciona?</Link>
+                    <img src={linkImagem} alt="Imagem de perfil" className={styles.fotoPerfil}/>
                 </div>
             </nav>
         </header>

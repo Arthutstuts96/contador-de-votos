@@ -1,4 +1,4 @@
-.container-erro{
+.containerErro{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,12 +8,12 @@
     padding: 24px;
     text-align: center;
 }
-.container-erro .erro404{
+.erro404{
     font-size: 150px;
 }
-.container-erro .erro404-frase{
+.paragrafo{
     font-size: 30px;
 }
-.container-erro .foto-tomada{
+.fotoTomada{
     width: 120px;
 }

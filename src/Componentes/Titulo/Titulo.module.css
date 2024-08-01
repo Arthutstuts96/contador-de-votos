@@ -1,4 +1,4 @@
-.container-titulo{
+.containerTitulo{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,22 +9,22 @@
     padding: 20px;
     text-align: center;
 }
-.container-titulo .titulo{
+.titulo{
     font-size: 52px;
 }
-.container-titulo .subtitulo{
+.subtitulo{
     font-size: 24px;
 }
 /********************/
 @media(max-width: 536px){
-    .container-titulo{
+    .containerTitulo{
         margin: 36px 24px;
         gap: 30px;
     }
-    .container-titulo .titulo{
+    .titulo{
         font-size: 32px;
     }
-    .container-titulo .subtitulo{
+    .subtitulo{
         font-size: 18px;
     }
 }

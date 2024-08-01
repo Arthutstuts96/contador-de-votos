@@ -5,44 +5,44 @@
     position: relative;
     width: 100%;
 }
-.barra-navegacao{
+.barraNavegacao{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px;
 }
-.barra-navegacao .titulo{
+.barraNavegacao .titulo{
     color: #000;
     font-size: 24px;
     font-family: "Playwrite MX", Arial, Helvetica, sans-serif;
     font-style: italic;
     text-decoration: none;
 }
-.barra-navegacao .navegacao-opcoes{
+.barraNavegacao .navegacaoOpcoes{
     display: flex;
     align-items: center;
     gap: 12px;
 }
-.navegacao-opcoes .como-funciona{
+.navegacaoOpcoes .comoFunciona{
     cursor: help;
     font-size: 20px;
     color: #6c2cd4;
     text-decoration: underline;
 }
-.navegacao-opcoes .foto-perfil{
+.navegacaoOpcoes .fotoPerfil{
     width: 45px;
     border: 2px solid #000;
     border-radius: 50%;
 }
 /*****************/
 @media(max-width: 536px){
-    .barra-navegacao .titulo{
+    .barraNavegacao .titulo{
         font-size: 16px;
     }
-    .navegacao-opcoes .como-funciona{
+    .navegacaoOpcoes .comoFunciona{
         font-size: 16px;
     }
-    .navegacao-opcoes .foto-perfil{
+    .navegacaoOpcoes .fotoPerfil{
         width: 36px;
     }
 }
